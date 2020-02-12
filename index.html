@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>formulaire</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<main>
+
+	<header>
+		<img src="met.png">
+		<h3>Créer votre profil Météojob</h3>
+	</header>
+	<form method="post" action="traitement.php">
+		<div class="name">
+			<div>
+				<label for="prenom">Prénom</label><br>
+				<input type="text" name="prenom" id="prenom"placeholder=" Votre prénom" required><br>
+			</div>
+			<div>
+			<label for="nom">Noms</label><br>
+			<input type="text" id="nom" name="nom" placeholder="  Votre nom" required=""><br>
+			</div>
+		</div>
+		<div class="ens">
+			<div>
+				<label for="mail">Adresse e-mail</label><br>
+				<input type="text" name="mail" id="mail" placeholder="Votre adresse e-mail" required><br>
+			</div>
+			<div>
+				<label for="pass">Mot de passe</label><br>
+				<input type="password" name="pass" id="pass" placeholder="Choisissez votre mot de passe" required><br>
+			</div>
+			<div>
+				<label for="poste">Poste recherché</label><br>
+				<input type="textarea" name="poste" id="poste" placeholder="Ex: Chef de projet,cuisinier..." required><br>
+			</div>
+			<div>
+				<label for="lieu">Où souhaitez-vous travailler ?</label><br>
+				<input type="textarea" name="lieu" id="lieu" placeholder="Ex: Essone,Nantes,Bretagne..." required><br>
+			</div>
+		</div>
+
+		<p>Types de contrats recherchés</p>
+		<div class="boite">
+				
+					<input type="checkbox" name="CDI" id="cdi" required checked><label for="cdi">CDI</label>
+				
+					<input type="checkbox" name="CDD" id="cdd" required><label for="cdd">CDD</label>
+				
+					<input type="checkbox" name="if" id="if" required><label for="if">Indépendant/ Franchisé</label>
+				
+					<input type="checkbox" name="inter" id="inter" required><label for="inter">Intérim</label>
+				
+					<input type="checkbox" value="Intérm" name="sta" id="sta" required><label for="sta">Stage</label>
+				
+					<input type="checkbox" name="alter" id="alter" required><label for="alter"> Alternance/ Apprentissage</label>
+				
+					<p>+ de types de contrat</p>
+					<div></div>
+		</div>
+		<footer>
+			<div>
+				<label for="cond">J'accepte les <a href="">conditions générales</a> pour créer mon compte, bénéficier des services de matching et postuler aux offres:</label>
+			</div>
+			<div class="container">
+				<input type="radio" name="cond" id="non" required checked>
+				<label class="oui" for="oui">Oui</label>
+				<input type="radio" name="cond" id="oui" required>
+				<label class="non" for="non">Non</label>
+			</div>
+		</footer>
+		<input type="submit" name="envoyer" value="Continuer">
+	</form>
+</main>
+</body>
+</html>
