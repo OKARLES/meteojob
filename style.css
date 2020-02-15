@@ -17,10 +17,8 @@ header>h3 {
 form {
 	margin: auto;
 	background: #ffffff;
-	min-width: 45vw;
-	max-width: 45vw;
-	min-height: 80vh;
-	max-height: 140vh;
+	width: 600px;
+	min-height: 800px;
 	border: 1px solid white;
 	border-radius: 6px;
 	padding: 30px;
@@ -49,7 +47,7 @@ input[type="password"]:focus {
 	justify-content: space-between;
 }
 #prenom {
-	width: 20vw;
+	width: 270px;
 	height: 30px;
 	margin-top: 1vh;
 	margin-bottom: 3vh;
@@ -57,7 +55,7 @@ input[type="password"]:focus {
 	font-family: 'Open Sans', sans-serif;
 }
 #nom {
-	width: 20vw;
+	width: 270px;
 	height: 30px;
 	margin-top: 1vh;
 	margin-bottom: 3vh;
@@ -80,7 +78,7 @@ input[type="password"]:focus {
 	justify-content: space-around; 
 }
 #mail {
-	width: 44vw;
+	width: 585px;
 	height: 30px;
 	padding-left: 1vw;
 	margin-bottom: 3vh;
@@ -89,8 +87,8 @@ input[type="password"]:focus {
 }
 #pass {
 	border: none;
-	width: 41.3vw;
-	height: 30px;
+	width: 575px;
+	height: 40px;
 	padding-left: 1vw;
 	margin-bottom: 3vh;
 	font-family: 'Open Sans', sans-serif;
@@ -105,12 +103,13 @@ input[type="password"]:focus {
 #oeil {
 	outline: 1px solid #666666;
 	display: flex;
-	height: 5.2vh;
+	width: 600px;
+	height: 38px;
 	margin-bottom: 3vh;
 	margin-top: 1vh;
 }
 #poste {
-	width: 44vw;
+	width: 585px;
 	height: 30px;
 	padding-left: 1vw;
 	margin-bottom: 3vh;
@@ -120,7 +119,7 @@ input[type="password"]:focus {
 }
 
 #lieu {
-	width: 44vw;
+	width: 585px;
 	height: 30px;
 	padding-left: 1vw;
 	margin-bottom: 3vh;
@@ -133,8 +132,8 @@ input[type="password"]:focus {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-  	width: 45.5vw;
- 	min-height: 18vh;
+  	width: 600px;
+	height: 125px;
 }
 input[type="checkbox"]{
 	display: none;
@@ -148,12 +147,9 @@ input[type="checkbox"]{
 	background: #eeeeee;
 	cursor: pointer;
 	font-size: 1em;
-	max-width: 11vw;
-  	min-width: 11vw;
-  	min-height: 7vh;
- 	max-height: 7vh;
+	width: 140px;
+	height: 40px;
   	text-align: center;
-  	overflow-wrap: break-word;
   	align-items: center;
 }
 input:checked + label {
@@ -190,20 +186,20 @@ footer {
 }
 .container {
   display: flex;
-  height: 5.5vh;
+  height: 35px;
   border-radius: 8px;
   border: 1px solid #afafaf;
 }
 .oui {
   background:  #1c82c9;
   color: #fff;
-  padding: 7px;
+  padding: 7px 10px;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;  
 }
 .non {
   background: #dddddd;
-  padding: 7px;
+  padding: 7px 10px;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
 }
@@ -219,9 +215,8 @@ input:checked + .oui {
 input[type="submit"] {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 19px;
-	margin-left: 17vw;
-	margin-bottom: 15vh;
-	padding: 8px 26px;
+	margin: 30px 240px; 
+	padding: 2vh 2vw;
 	background: #1c82c9;
 	color: white;
 	border: 1px solid #1c82c9;
