@@ -26,11 +26,13 @@ form {
 .ens>div>label {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
+	color: #180c28;
 	padding-bottom: 2vh;
 }
 .name>div>label {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
+	color: #180c28;
 
 }
 input[type="text"]:focus{
@@ -51,7 +53,7 @@ input[type="password"]:focus {
 	height: 30px;
 	margin-top: 1vh;
 	margin-bottom: 3vh;
-	padding-left: 1vw;
+	padding-left: 0.3vw;
 	font-family: 'Open Sans', sans-serif;
 }
 #nom {
@@ -59,7 +61,7 @@ input[type="password"]:focus {
 	height: 30px;
 	margin-top: 1vh;
 	margin-bottom: 3vh;
-	padding-left: 1vw;
+	padding-left: 0.3vw;
 	font-family: 'Open Sans', sans-serif;
 }
 /**Civilités**/
@@ -71,6 +73,7 @@ input[type="password"]:focus {
 .ens + p {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
+	color: #180c28;
 }
 .ens {
 	display: flex;
@@ -80,7 +83,7 @@ input[type="password"]:focus {
 #mail {
 	width: 585px;
 	height: 30px;
-	padding-left: 1vw;
+	padding-left: 0.3vw;
 	margin-bottom: 3vh;
 	margin-top: 1vh;
 	font-family: 'Open Sans', sans-serif;
@@ -88,8 +91,8 @@ input[type="password"]:focus {
 #pass {
 	border: none;
 	width: 575px;
-	height: 40px;
-	padding-left: 1vw;
+	height: 35px;
+	padding-left: 0.3vw;
 	margin-bottom: 3vh;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -103,15 +106,15 @@ input[type="password"]:focus {
 #oeil {
 	outline: 1px solid #666666;
 	display: flex;
-	width: 600px;
-	height: 38px;
+	width: 593px;
+	height: 36px;
 	margin-bottom: 3vh;
 	margin-top: 1vh;
 }
 #poste {
 	width: 585px;
 	height: 30px;
-	padding-left: 1vw;
+	padding-left: 0.3vw;
 	margin-bottom: 3vh;
 	margin-top: 1vh;
 	font-family: 'Open Sans', sans-serif;
@@ -121,7 +124,7 @@ input[type="password"]:focus {
 #lieu {
 	width: 585px;
 	height: 30px;
-	padding-left: 1vw;
+	padding-left: 0.3vw;
 	margin-bottom: 3vh;
 	margin-top: 1vh;
 	font-family: 'Open Sans', sans-serif;
@@ -148,7 +151,7 @@ input[type="checkbox"]{
 	cursor: pointer;
 	font-size: 1em;
 	width: 140px;
-	height: 40px;
+	height: 55px;
   	text-align: center;
   	align-items: center;
 }
@@ -167,6 +170,7 @@ input:checked + label {
 .boite>p {
 	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
+	color: #180c28;
 }
 /**Conditions d'utilisations**/
 .container>input {
@@ -183,6 +187,7 @@ footer {
 	padding-bottom: 4vh;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
+	color: #180c28;
 }
 .container {
   display: flex;
